@@ -9,9 +9,11 @@ permalink: >
 published: true
 post_date: 2018-01-09 02:29:17
 ---
-While building this website, I ran into an issue: [Genericons][1], the font I'm using for social logos, does not include an UpWork logo! I wanted to link to my [UpWork profile][2], so I set out to build my own version of Genericons with an UpWork logo included.
+While building this website, I ran into an issue: [Genericons][1], the icon font used for the sidebar social logos, does not include an UpWork logo! I wanted to link to my [UpWork profile][2], so I decided to build my own version of Genericons with an UpWork logo included.
 
-I found [these instructions][3] for building Genericons, but I found the process to be cumbersome -- particularly on Windows. To make things slightly easier, I created [Genericons Grunt][4], a Genericons variant that uses `grunt-webfont` instead of `FontCustom` for the build process. In this tutorial, I'll explain how you can use it to build your own version of Genericons.
+Automattic provides [these instructions][3] for building Genericons, but I found the process to be cumbersome -- particularly on Windows. To make things slightly easier, I created [Genericons Grunt][4], a Genericons variant that uses `grunt-webfont` instead of `FontCustom` for the build process.
+
+In this tutorial, I'll explain how you can use Genericons Grunt to build your own version of Genericons.
 
 ## Step 1: Install ttfautohint and fontforge
 
