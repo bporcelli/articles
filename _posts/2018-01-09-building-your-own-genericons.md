@@ -13,15 +13,11 @@ post_date: 2018-01-09 02:29:17
 
 When building this website, I ran into an issue: [Genericons][1], the font used to render the social logos in the sidebar, does not include an UpWork logo!
 
-![Sidebar with UpWork logo missing.][2]
-
-To get the sidebar rendering properly, I needed to build my own version of Genericons with an UpWork logo. Just in case you find yourself in a similar situation, I've described the process below.
+I wanted to include a link to my [UpWork profile][2], so I set out to add an UpWork logo to Genericons. This post documents that process.
 
 ## Getting Started
 
-In this post, I demonstrate how to build a custom version of the Genericons icon font with [Genericons Grunt][3]. The process involves installing some dependencies, cloning a git repo, and running a couple of commands.
-
-Let's get started!
+In this post, I demonstrate how to build a custom version of the Genericons icon font with [Genericons Grunt][3]. The process involves installing some dependencies, cloning a git repo, and running a couple of commands. Let's get started!
 
 ## Step 1: Install ttfautohint and fontforge
 
@@ -74,7 +70,7 @@ You may encounter a build error when running *npm install*. If so, install [Visu
 Now you know how to build your own version of Genericons. If you have any questions or suggestions, please leave a comment below!      
 
  [1]: http://genericons.com
- [2]: http://bporcelli.com/wp-content/uploads/2018/01/upwork-logo-missing.png
+ [2]: https://www.upwork.com/fl/bporcelli
  [3]: https://github.com/bporcelli/genericons-grunt
  [4]: http://fontforge.github.io/en-US/
  [5]: https://www.freetype.org/ttfautohint/index.html
