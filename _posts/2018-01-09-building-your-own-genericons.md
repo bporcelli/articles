@@ -11,9 +11,7 @@ post_date: 2018-01-09 02:29:17
 ---
 ## Preface
 
-When building this website, I ran into an issue: [Genericons][1], the font used to render the social logos in the sidebar, does not include an UpWork logo!
-
-I wanted to include a link to my [UpWork profile][2], so I set out to add an UpWork logo to Genericons. This post documents that process.
+When building this website, I ran into an issue: [Genericons][1], the font used to render the social logos in the sidebar, does not include an UpWork logo! I wanted to link to my [UpWork profile][2], so I set out to add a logo of my own. This post documents that process.
 
 ## Getting Started
 
