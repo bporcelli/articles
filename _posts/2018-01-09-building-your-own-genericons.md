@@ -19,21 +19,23 @@ To get the sidebar rendering properly, I needed to build my own version of Gener
 
 ## Getting Started
 
-In this post, I demonstrate how to build a custom version of the Genericons icon font with [Genericons Grunt][3]. The process involves installing some dependencies, cloning a git repo, and running a couple of commands. Let's get started!
+In this post, I demonstrate how to build a custom version of the Genericons icon font with [Genericons Grunt][3]. The process involves installing some dependencies, cloning a git repo, and running a couple of commands.
+
+Let's get started!
 
 ## Step 1: Install ttfautohint and fontforge
 
 Genericons Grunt uses [FontForge][4] as a font rendering engine. It also depends on [ttfautohint][5] for hinting. The first thing we need to do is install these dependencies.
 
-### OS X
+**OS X**
 
 `brew install ttfautohint fontforge --with-python`
 
-### Linux
+**Linux**
 
 `sudo apt-get install ttfautohint fontforge`
 
-### Windows
+**Windows**
 
 1.  Download and install [ttfautohint][6].
 2.  Download and install [FontForge][7].
@@ -44,7 +46,7 @@ Genericons Grunt uses [FontForge][4] as a font rendering engine. It also depends
 Now the fun part starts! First, let's clone the Genericons Grunt repo and cd into it.
 
     git clone https://github.com/bporcelli/genericons-grunt.git
-    cd genericons-grunt
+    cd genericons-grunt    
     
 
 ## Step 3: Choose your icons
@@ -63,7 +65,9 @@ Finally, we get to build our icon font! It's as easy as running two commands:
 
 If all goes well, the *genericons* directory will now contain your customized Genericons font.
 
-**Note for Windows users** You may encounter a build error when running *npm install*. If so, install <a href="https://www.visualstudio.com/vs/older-downloads/" target="_blank" rel="noopener">Visual Studio 2015</a> and try again.
+**Note for Windows users**
+
+You may encounter a build error when running *npm install*. If so, install [Visual Studio 2015][9] and try again.
 
 ## Conclusion
 
@@ -77,3 +81,4 @@ Now you know how to build your own version of Genericons. If you have any questi
  [6]: https://www.freetype.org/ttfautohint/index.html#download
  [7]: http://fontforge.github.io/en-US/downloads/windows/
  [8]: https://drive.google.com/open?id=1H1gqcfCj2hTBMCmDyVt_uEidm9AGHm0
+ [9]: https://www.visualstudio.com/vs/older-downloads/
