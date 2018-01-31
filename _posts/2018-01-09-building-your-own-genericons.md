@@ -25,15 +25,19 @@ In this post, I demonstrate how to build a custom version of the Genericons icon
 
 Genericons Grunt uses [FontForge][4] as a font rendering engine. It also depends on [ttfautohint][5] for hinting. The first thing we need to do is install these dependencies.
 
-**OS X**
+### OS X
 
 `brew install ttfautohint fontforge --with-python`
 
-**Linux**
+### Linux
 
 `sudo apt-get install ttfautohint fontforge`
 
-**Windows** 1. Download and install <a href="https://www.freetype.org/ttfautohint/index.html#download" target="_blank" rel="noopener">ttfautohint</a>. 2. Download and install <a href="http://fontforge.github.io/en-US/downloads/windows/" target="_blank" rel="noopener">FontForge</a>. 3. Add *C:\Program Files (x86)\FontForgeBuilds\bin* to your *PATH *environment variable.
+### Windows
+
+1.  Download and install [ttfautohint][6].
+2.  Download and install [FontForge][7].
+3.  Add *C:\Program Files (x86)\FontForgeBuilds\bin* to your *PATH* environment variable.
 
 ## Step 2: Clone genericons-grunt
 
@@ -47,7 +51,7 @@ Now the fun part starts! First, let's clone the Genericons Grunt repo and cd int
 
 Next, we'll choose the icons for our version of Genericons. This is as easy as adding, editing, or removing SVG source files from the *svg* directory.
 
-In my case, I'm going to drop in this [UpWork logo][6]. Note that icons you add should be aligned on a 16x16 px pixel grid for the best results.
+In my case, I'm going to drop in this [UpWork logo][8]. Note that icons you add should be aligned on a 16x16 px pixel grid for the best results.
 
 ## Step 4: Bake the font!
 
@@ -70,4 +74,6 @@ Now you know how to build your own version of Genericons. If you have any questi
  [3]: https://github.com/bporcelli/genericons-grunt
  [4]: http://fontforge.github.io/en-US/
  [5]: https://www.freetype.org/ttfautohint/index.html
- [6]: https://drive.google.com/open?id=1H1gqcfCj2hTBMCmDyVt_uEidm9AGHm0
+ [6]: https://www.freetype.org/ttfautohint/index.html#download
+ [7]: http://fontforge.github.io/en-US/downloads/windows/
+ [8]: https://drive.google.com/open?id=1H1gqcfCj2hTBMCmDyVt_uEidm9AGHm0
