@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2018-01-09 02:29:17
 ---
-[Genericons][1] is an icon font created by [Automattic][2]. The default icons work great for most applications, but sometimes custom tailoring is required. Perhaps you need to add a new logo, or want to remove those you're not using? In any case, [Genericons Grunt][3] makes it easy to bake your own flavor of Genericons. Don't believe me? Just watch.
+[Genericons][1] is an icon font created by [Automattic][2]. The default icons work great for most applications, but sometimes custom tailoring is required. Perhaps you need to add a new logo, or want to remove those you're not using? In any case, [Genericons Grunt][3] makes it easy to bake your own flavor of Genericons. Let me show you how it works.
 
 ## Step 1: Install ttfautohint and fontforge
 
@@ -59,7 +59,7 @@ You may encounter a build error when running `npm install`. If so, install [Visu
 
 ## Conclusion
 
-Now you know how to build your own version of Genericons. If you have any questions or suggestions, please feel free to leave a comment below!      
+Now you know how to build your own version of Genericons. Please leave a comment below if you have any questions or suggestions!      
 
  [1]: http://genericons.com
  [2]: https://automattic.com/
