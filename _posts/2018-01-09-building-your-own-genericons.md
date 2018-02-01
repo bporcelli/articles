@@ -9,15 +9,13 @@ permalink: >
 published: true
 post_date: 2018-01-09 02:29:17
 ---
-While building this website, I ran into an issue: [Genericons][1], the icon font used for the sidebar social logos, does not include an UpWork logo! I wanted to link to my [UpWork profile][2], so I decided to build my own version of Genericons with an UpWork logo included.
+[Genericons][1] is an icon font created by Automattic, the company behind WordPress. The default icons work great for most applications, but sometimes a little custom tailoring is required. Perhaps you need to add a new logo, or want to remove those you're not using? In any case, [Genericons Grunt][2] makes it a breeze to bake your own flavor of Genericons.
 
-Automattic provides [these instructions][3] for building Genericons, but I found the process to be cumbersome -- particularly on Windows. To make things slightly easier, I created [Genericons Grunt][4], a Genericons variant that uses `grunt-webfont` instead of `FontCustom` for the build process.
-
-In this tutorial, I'll explain how you can use Genericons Grunt to build your own version of Genericons.
+Don't believe me? Just watch.
 
 ## Step 1: Install ttfautohint and fontforge
 
-Genericons Grunt uses [FontForge][5] as a font rendering engine. It also depends on [ttfautohint][6] for hinting. The first thing we need to do is install these dependencies.
+Genericons Grunt uses [FontForge][3] as a font rendering engine. It also depends on [ttfautohint][4] for hinting. The first thing we need to do is install these dependencies.
 
 **OS X**
 
@@ -29,8 +27,8 @@ Genericons Grunt uses [FontForge][5] as a font rendering engine. It also depends
 
 **Windows**
 
-1.  Download and install [ttfautohint][7].
-2.  Download and install [FontForge][8].
+1.  Download and install [ttfautohint][5].
+2.  Download and install [FontForge][6].
 3.  Add *C:\Program Files (x86)\FontForgeBuilds\bin* to your *PATH* environment variable.
 
 ## Step 2: Clone genericons-grunt
@@ -45,7 +43,7 @@ Now the fun part starts! First, let's clone the Genericons Grunt repo and cd int
 
 Next, we'll choose the icons for our version of Genericons. This is as easy as adding, editing, or removing SVG source files from the *svg* directory.
 
-In my case, I'm going to drop in this [UpWork logo][9]. Note that icons you add should be aligned on a 16x16 px pixel grid for the best results.
+In my case, I'm going to drop in this [UpWork logo][7]. Note that icons you add should be aligned on a 16x16 px pixel grid for the best results.
 
 ## Step 4: Bake the font!
 
@@ -59,19 +57,17 @@ If all goes well, the *genericons* directory will now contain your customized Ge
 
 **Note for Windows users**
 
-You may encounter a build error when running *npm install*. If so, install [Visual Studio 2015][10] and try again.
+You may encounter a build error when running *npm install*. If so, install [Visual Studio 2015][8] and try again.
 
 ## Conclusion
 
 Now you know how to build your own version of Genericons. If you have any questions or suggestions, please leave a comment below!      
 
  [1]: http://genericons.com
- [2]: https://www.upwork.com/fl/bporcelli
- [3]: https://github.com/Automattic/Genericons#building-your-own-genericons
- [4]: https://github.com/bporcelli/genericons-grunt
- [5]: http://fontforge.github.io/en-US/
- [6]: https://www.freetype.org/ttfautohint/index.html
- [7]: https://www.freetype.org/ttfautohint/index.html#download
- [8]: http://fontforge.github.io/en-US/downloads/windows/
- [9]: https://drive.google.com/open?id=1H1gqcfCj2hTBMCmDyVt_uEidm9AGHm0
- [10]: https://www.visualstudio.com/vs/older-downloads/
+ [2]: https://github.com/bporcelli/genericons-grunt
+ [3]: http://fontforge.github.io/en-US/
+ [4]: https://www.freetype.org/ttfautohint/index.html
+ [5]: https://www.freetype.org/ttfautohint/index.html#download
+ [6]: http://fontforge.github.io/en-US/downloads/windows/
+ [7]: https://drive.google.com/open?id=1H1gqcfCj2hTBMCmDyVt_uEidm9AGHm0
+ [8]: https://www.visualstudio.com/vs/older-downloads/
