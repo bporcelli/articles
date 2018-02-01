@@ -31,7 +31,7 @@ Genericons Grunt uses [FontForge][4] as a font rendering engine. It also depends
 
 ## Step 2: Clone genericons-grunt
 
-Now the fun part starts! First, let's clone the Genericons Grunt repo and cd into it.
+Next, let's clone the Genericons Grunt repository and `cd` into it.
 
     git clone https://github.com/bporcelli/genericons-grunt.git
     cd genericons-grunt    
@@ -39,9 +39,9 @@ Now the fun part starts! First, let's clone the Genericons Grunt repo and cd int
 
 ## Step 3: Choose your icons
 
-Next, we'll choose the icons for our version of Genericons. This is as easy as adding, editing, or removing SVG source files from the *svg* directory.
+Now we'll choose the icons for our version of Genericons. This is as easy as adding, editing, or removing SVG source files from the `svg/` directory.
 
-In my case, I'm going to drop in this [UpWork logo][8]. Note that icons you add should be aligned on a 16x16 px pixel grid for the best results.
+*Note:* All icons should be aligned on a 16 by 16 pixel grid for the best results.
 
 ## Step 4: Bake the font!
 
@@ -55,11 +55,11 @@ If all goes well, the *genericons* directory will now contain your customized Ge
 
 **Note for Windows users**
 
-You may encounter a build error when running *npm install*. If so, install [Visual Studio 2015][9] and try again.
+You may encounter a build error when running *npm install*. If so, install [Visual Studio 2015][8] and try again.
 
 ## Conclusion
 
-Now you know how to build your own version of Genericons. If you have any questions or suggestions, please leave a comment below!      
+Now you know how to build your own version of Genericons. If you have any questions or suggestions, please feel free to leave a comment below!      
 
  [1]: http://genericons.com
  [2]: https://automattic.com/
@@ -68,5 +68,4 @@ Now you know how to build your own version of Genericons. If you have any questi
  [5]: https://www.freetype.org/ttfautohint/index.html
  [6]: https://www.freetype.org/ttfautohint/index.html#download
  [7]: http://fontforge.github.io/en-US/downloads/windows/
- [8]: https://drive.google.com/open?id=1H1gqcfCj2hTBMCmDyVt_uEidm9AGHm0
- [9]: https://www.visualstudio.com/vs/older-downloads/
+ [8]: https://www.visualstudio.com/vs/older-downloads/
