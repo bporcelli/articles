@@ -1,13 +1,11 @@
 ---
 ID: 389
-post_title: >
-  My favorites from Wiki Loves Monuments
-  2017
+post_title: Wiki Loves Monuments 2017
 author: bporcelli
 post_excerpt: ""
 layout: post
 permalink: >
-  http://bporcelli.com/2018/02/my-favorites-from-wiki-loves-monuments-2017/
+  http://bporcelli.com/2018/02/wiki-loves-monuments-2017/
 published: true
 post_date: 2018-02-01 16:12:00
 ---
@@ -19,11 +17,11 @@ All of the winning photos are beautiful, but I want to highlight a few that real
 
 ![A photograph of Wat Benchamabophit, a Buddhist temple in Bankok, Thailand.][3]
 
-**Wat Benchamabophit by BerryJ.** This photograph features [Wat Benchamabophit][4], a Buddhist temple in Bangkok, Thailand. I love how the perfect symmetry of the temple contrasts with the distinctly asymmetrical background of the sky.
+**Wat Benchamabophit by BerryJ.** This photograph features [Wat Benchamabophit][4], a Buddhist temple in Bangkok, Thailand. I love how the symmetry of the temple contrasts with the distinctly asymmetrical background of the sky.
 
 ![Svaneti towers in Mestia, Georgia.][5]
 
-**Svaneti towers by Dmytro B.** In this photograph, Dmytro Balkhovitin captures the defensive towers typical of the [Svaneti][6] region in Georgia. To see these ancient towers illuminated by artificial lighting is very interesting.
+**Svaneti towers by Dmytro B.** In this photograph, Dmytro Balkhovitin captures the defensive towers typical of the [Svaneti][6] region in Georgia. The way the artificial light pierces this medieval scene in particularly attractive.
 
 ![Notre Dame basilica in Montreal, Canada.][7]
 
