@@ -27,7 +27,7 @@ Genericons Grunt uses [FontForge][4] as a font rendering engine. It also depends
 
 1.  Download and install [ttfautohint][6].
 2.  Download and install [FontForge][7].
-3.  Add *C:\Program Files (x86)\FontForgeBuilds\bin* to your *PATH* environment variable.
+3.  Add `C:\Program Files (x86)\FontForgeBuilds\bin` to your `PATH` environment variable.
 
 ## Step 2: Clone genericons-grunt
 
@@ -51,11 +51,11 @@ Finally, we get to build our icon font! It's as easy as running two commands:
     npm run build
     
 
-If all goes well, the *genericons* directory will now contain your customized Genericons font.
+If all goes well, the `genericons` directory will now contain your customized Genericons font.
 
 **Note for Windows users**
 
-You may encounter a build error when running *npm install*. If so, install [Visual Studio 2015][8] and try again.
+You may encounter a build error when running `npm install`. If so, install [Visual Studio 2015][8] and try again.
 
 ## Conclusion
 
