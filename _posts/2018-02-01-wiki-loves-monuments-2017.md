@@ -21,7 +21,7 @@ All of the winning photos are beautiful, but I want to highlight a few that real
 
 ![Svaneti towers in Mestia, Georgia.][5]
 
-**Svaneti towers by Dmytro B.** In this photograph, Dmytro Balkhovitin captures the defensive towers typical of the [Svaneti][6] region in Georgia. The way the artificial light pierces this medieval scene in particularly attractive.
+**Svaneti towers by Dmytro B.** In this photograph, Dmytro Balkhovitin captures the defensive towers typical of the [Svaneti][6] region in Georgia. The way the artificial light pierces this medieval scene is particularly interesting.
 
 ![Notre Dame basilica in Montreal, Canada.][7]
 
