@@ -5,7 +5,7 @@ author: bporcelli
 post_excerpt: ""
 layout: post
 permalink: >
-  http://bporcelli.com/2018/01/building-your-own-genericons/
+  https://bporcelli.com/2018/01/building-your-own-genericons/
 published: true
 post_date: 2018-01-09 02:29:17
 ---
